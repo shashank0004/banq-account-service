@@ -9,7 +9,7 @@
     <relativePath>..\com.tibco.bwce.banq.account.service.application.parent</relativePath>
   </parent>
   <artifactId>com.tibco.bwce.banq.account.service.application</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <properties>
     <pcf.property.file>pcfdev.properties</pcf.property.file>
     <k8s.property.file>k8s-dev.properties</k8s.property.file>
