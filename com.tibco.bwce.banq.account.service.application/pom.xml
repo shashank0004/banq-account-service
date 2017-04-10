@@ -9,7 +9,7 @@
     <relativePath>..\com.tibco.bwce.banq.account.service.application.parent</relativePath>
   </parent>
   <artifactId>com.tibco.bwce.banq.account.service.application</artifactId>
-  <packaging>bwear</packaging>
+  <packaging>war</packaging>
   <properties>
     <pcf.property.file>pcfdev.properties</pcf.property.file>
     <k8s.property.file>k8s-dev.properties</k8s.property.file>
@@ -17,12 +17,6 @@
   </properties>
   <build>
     <plugins>
-      <plugin>
-        <groupId>com.tibco.plugins</groupId>
-        <artifactId>bw6-maven-plugin</artifactId>
-        <version>1.0.0</version>
-        <extensions>true</extensions>
-      </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>properties-maven-plugin</artifactId>
